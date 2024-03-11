@@ -1,59 +1,14 @@
-<<<<<<< HEAD
 # Ignore os arquivos de sistema do Mac
 .DS_store
 
 # Ignore a pasta node_modules
 node_modules
 
-# Ignore todos os arquivos de texto
-*.txt
+# Ignore a pasta do .angular
+.angular
 
 # Ignore arquivos relacionados às chaves de API
 .env
 
 # Ignore arquivos de configuração de SASS
 .sass-cache
-=======
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
-
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
-
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-
-# System files
-.DS_Store
-Thumbs.db
->>>>>>> 557b68b8445d2fe3d769a703d636e85a1142bd7a

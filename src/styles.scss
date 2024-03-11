@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@use "app/core/styles/global_variables" as variables;
+@import "app/core/styles/project.scss";
+
+// #region FONTS
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+   font-family: variables.$font-primary;
+   font-optical-sizing: auto;
+   font-weight: normal;
+   font-style: normal;
+ }
+// #endregion FONTS
+
+// #region THEME COLORS
+
+// #endregion THEME COLORS
+
+// #region BASE COLORS
+body {
+  background-color: variables.$color-pink-light !important;
+  color: variables.$text-color-primary !important;
+}
+// #endregion BASE COLORS
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// * Import do Bootstrap DEVE estar depois dos overrides, pois nos arquivos internos da biblioteca eles possuem a flag de "!default" junto com os valores
+// * A ideia é que caso um novo valor seja declarado, o que é !default vai ser sobreescrito com esse novo valor,
+// * o !default serve só pra definir um valor caso nenhum outro seja declarado explicitamente. Por isso o import do Bootstrap nesse caso deve estar depois dos overrides

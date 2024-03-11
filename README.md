@@ -7,6 +7,7 @@ Este é um blog moderno e interativo desenvolvido com Angular no front-end e C# 
 - **Autenticação**: JWT ou OAuth
 - **Comentários**: Ainda não definido
 - **Consumo de APIs Externas**: Ainda não definidas
+- **Banco de Dados**: SQL - Origem ainda não definida
 
 
 ## Funcionalidades
@@ -24,10 +25,10 @@ O projeto será hospedado em um domínio gratuito, que será escolhido e atualiz
 Para rodar o front-end do blog localmente, siga os passos abaixo:
 
 1. Clone o repositório:
-git clone https://github.com/SeuUsuario/seu-repositorio.git
+git clone https://github.com/S0lturn3/my-blog.git
 
 2. Navegue até o diretório do projeto e instale as dependências:
-cd seu-repositorio
+cd my-blog
 npm install
 
 3. Inicie o servidor de desenvolvimento do Angular:

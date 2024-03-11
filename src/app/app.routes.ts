@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+<<<<<<< HEAD
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './features/views/home-page/home-page.component';
 import { LoginComponent } from './core/auth/components/login/login.component';
@@ -19,3 +20,7 @@ export const routes: Routes = [
    { path: "unauthorized-access", component: NotAuthorizedComponent },
    { path: "**", component: NotFoundComponent }
 ];
+=======
+
+export const routes: Routes = [];
+>>>>>>> 557b68b8445d2fe3d769a703d636e85a1142bd7a

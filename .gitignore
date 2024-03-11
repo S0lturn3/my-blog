@@ -2,10 +2,10 @@
 .DS_store
 
 # Ignore a pasta node_modules
-node_modules
+node_modules/
 
 # Ignore a pasta do .angular
-.angular
+.angular/
 
 # Ignore arquivos relacionados às chaves de API
 .env

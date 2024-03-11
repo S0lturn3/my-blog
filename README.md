@@ -1,27 +1,58 @@
-# MyBlog
+Este é um blog moderno e interativo desenvolvido com Angular no front-end e C# no back-end. O objetivo deste blog é fornecer uma plataforma para compartilhar minhas ideias, artigos e comentários, integrando autenticação de usuários e interatividade por meio de comentários e consumos de APIs externas.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
-## Development server
+## Tecnologias Utilizadas
+- **Front-end**: Angular
+- **Back-end**: C#
+- **Autenticação**: JWT ou OAuth
+- **Comentários**: Ainda não definido
+- **Consumo de APIs Externas**: Ainda não definidas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Funcionalidades
+- **Autenticação de Usuários**: Registre-se e autentique-se para personalizar sua experiência.
+- **Postagens de Blog**: Crie e compartilhe suas próprias histórias.
+- **Comentários**: Interaja com a comunidade através de comentários em postagens.
+- **APIs Externas**: Enriqueça as postagens do blog com conteúdo de fontes externas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Hospedagem
+O projeto será hospedado em um domínio gratuito, que será escolhido e atualizado aqui posteriormente.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Como Executar Localmente
+Para rodar o front-end do blog localmente, siga os passos abaixo:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone o repositório:
+git clone https://github.com/SeuUsuario/seu-repositorio.git
 
-## Running end-to-end tests
+2. Navegue até o diretório do projeto e instale as dependências:
+cd seu-repositorio
+npm install
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Inicie o servidor de desenvolvimento do Angular:
+ng serve
 
-## Further help
+4. Abra `http://localhost:4200` em seu navegador.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Notas Adicionais
+- O projeto está em fase inicial de desenvolvimento, aberto a contribuições e sugestões.
+- Detalhes adicionais sobre a configuração do ambiente de desenvolvimento, dependências e guias de instalação serão fornecidos em documentações futuras.
+
+
+## Contribuições
+Contribuições são sempre bem-vindas! Se você tem alguma ideia ou sugestão, sinta-se livre para fazer um fork do repositório e enviar um pull request com suas melhorias.
+
+
+## Licença
+MIT
+
+
+## Contato
+Se você tiver alguma dúvida ou quiser entrar em contato, por favor, envie uma mensagem para erickzcarvalho25@outlook.com
+
+
+---
+
+Projeto em construção. Mais detalhes serão adicionados aqui à medida que o desenvolvimento progredir.
